@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.source_files      = 'Sources/*.swift', 'ReactiveAlamofire/*.h'
   s.requires_arc      = true
 
-  s.dependency 'ReactiveKit', '~> 3.0.0-beta1'
-  s.dependency 'Alamofire', '4.0.0-beta.1'
+  s.dependency 'ReactiveKit', '~> 3.0.0-beta5'
+  s.dependency 'Alamofire', '~> 4.0.0'
 end
